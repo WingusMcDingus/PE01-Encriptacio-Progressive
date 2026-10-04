@@ -41,9 +41,9 @@ public class ClasseCriptografica {
             posicio++;
             int codi = Integer.parseInt(numeros[i]) - clauNum - posicio;
             if (codi >= 0 && codi <= 65535) {
-                    resultat += (char) codi;
+                resultat += (char) codi;
             } else {
-                    resultat += '?';
+                resultat += '?';
             }
         }
         return resultat;
